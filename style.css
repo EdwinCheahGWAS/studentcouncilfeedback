@@ -239,13 +239,13 @@ button[type="submit"]:hover {
 }
   
   @keyframes bg-animation{
-    0%{
+    0%, 100%{
     transform: translateY(0) rotate(0deg);
     opacity: 0;
     }
     
-    100%{
-    transform: translateY(-800px) rotate(540deg);
+    50%{
+    transform: translateY(-800px) rotate(360deg);
     opacity: 1;
     }
   }
